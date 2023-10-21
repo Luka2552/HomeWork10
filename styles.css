@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: blue;
+  font-family: "Roboto", sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  gap: 20px;
+  width: 1280px;
+  height: 720px;
+  grid-template-areas:
+    "square1 square2 square3 square3"
+    "square1 square4 square5 square8"
+    "square6 square7 square5 square11"
+    "square9 square7 square10 square10";
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: blue;
+  height: 100%;
+}
+
+.square1 {
+  grid-area: square1;
+}
+.square2 {
+  grid-area: square2;
+}
+.square3 {
+  grid-area: square3;
+}
+.square4 {
+  grid-area: square4;
+}
+.square5 {
+  grid-area: square5;
+}
+.square6 {
+  grid-area: square6;
+}
+.square7 {
+  grid-area: square7;
+}
+.square8 {
+  grid-area: square8;
+}
+.square9 {
+  grid-area: square9;
+}
+.square10 {
+  grid-area: square10;
+}
+.square11 {
+  grid-area: square11;
+}
